@@ -12,5 +12,5 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - run: "${GITHUB_ACTION_PATH}/action.sh" # запустить скрипт
+    - run: "actions/action.sh" # запустить скрипт
       shell: sh # в интерпретаторе sh
